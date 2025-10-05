@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as _}from"./chunks/framework.CgiyRsxg.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"第二章/2-6_各种工具类的介绍.md","filePath":"第二章/2-6_各种工具类的介绍.md"}'),a={name:"第二章/2-6_各种工具类的介绍.md"};function r(o,s,c,n,p,d){return _(),t("div")}const f=e(a,[["render",r]]);export{m as __pageData,f as default};
