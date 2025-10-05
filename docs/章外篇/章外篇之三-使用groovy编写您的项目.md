@@ -145,7 +145,7 @@ jar包
 ### 创建groovy类
 
 创建groovy类和创建java类基本是一样的，只是我们需要选择groovy的文件创建
-![zy3-01](images/zy3-01.png)
+![zy3-01](../images/zy3-01.png)
 即可创建了groovy类
 
 ### groovy的语法标准
