@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -11,17 +11,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'pnpm'
-      
-      - name: Install pnpm
-        run: npm install -g pnpm@latest
-      
-      - name: Verify pnpm installation
-        run: pnpm --version
       
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
