@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "NukkitLearn",
   description: "史上最详细的Nukkit教程",
+  base: '/NukkitLearn-WebDocs/',
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
